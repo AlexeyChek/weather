@@ -6,9 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>НАША-погода</title>
+  <link rel="icon" type="image/png" sizes="128x128" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts" defer></script>
+  <script src="js/script.js" defer></script>
 </head>
 
 <body>
+  <section class="main">
+    <h1 class="main_title">Прогноз погоды на 5 дней</h1>
+    <select name="Город" id="cities" class="main_select">
+      <option value="0">Краснодар</option>
+      <option value="1">Москва</option>
+      <option value="2">Челябинск</option>
+    </select>
+    <div class="wrapper">
+      <div id="temp" class="wrapper_table"></div>
+      <div id="humidity" class="wrapper_table"></div>
+      <div id="pressure" class="wrapper_table"></div>
+    </div>
+  </section>
 
 </body>
 

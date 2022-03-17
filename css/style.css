@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  padding: 50px 0;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.main_title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main_select {
+  margin-bottom: 30px;
+}
+
+.wrapper_table:not(:last-child) {
+  margin-bottom: 20px;
+}
